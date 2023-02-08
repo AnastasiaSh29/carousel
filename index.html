@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>slider</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="radio" name="slider" class="radio-one" id="s1" checked />
+      <input type="radio" name="slider" class="radio-two" id="s2" />
+      <input type="radio" name="slider" class="radio-three" id="s3" />
+
+      <div class="slider slide-one" id="one">
+        <div class="slider__article">
+          <h2 class="slider__header">Camel</h2>
+          <p class="slider__text">
+            A camel (from: Latin: camelus and Greek: κάμηλος (kamēlos) from
+            Semitic: gāmāl.[7][8]) is an even-toed ungulate in the genus Camelus
+            that bears distinctive fatty deposits known as "humps" on its back.
+            Camels have long been domesticated and, as livestock, they provide
+            food (milk and meat) and textiles (fiber and felt from hair).
+          </p>
+        </div>
+        <div class="back-pre"><label for="s3" class="pre"></label></div>
+        <div class="back-nxt"><label for="s2" class="nxt"></label></div>
+      </div>
+      <div class="slider slide-two" id="two">
+        <div class="slider__article">
+          <h2 class="slider__header">Adaptations</h2>
+          <p class="slider__text">
+            Camels do not directly store water in their humps; they are
+            reservoirs of fatty tissue. When this tissue is metabolized, it
+            yields more than one gram of water for every gram of fat processed.
+            This fat metabolization, while releasing energy, causes water to
+            evaporate from the lungs during respiration (as oxygen is required
+            for the metabolic process): overall, there is a net decrease in
+            water.
+          </p>
+        </div>
+        <div class="back-pre"><label for="s1" class="pre"></label></div>
+        <div class="back-nxt"><label for="s3" class="nxt"></label></div>
+      </div>
+      <div class="slider slide-three" id="three">
+        <div class="slider__article">
+          <h2 class="slider__header">Domestication</h2>
+          <p class="slider__text">
+            Like horses, camels originated in North America and eventually
+            spread across Beringia to Asia. They survived in the Old World, and
+            eventually humans domesticated them and spread them globally. Along
+            with many other megafauna in North America, the original wild camels
+            were wiped out during the spread of the first indigenous peoples of
+            the Americas from Asia into North America, 10 to 12,000 years ago.
+          </p>
+        </div>
+        <div class="back-pre"><label for="s2" class="pre"></label></div>
+        <div class="back-nxt"><label for="s1" class="nxt"></label></div>
+      </div>
+
+      <div class="pagination">
+        <label for="s1" class="pagination__one"></label>
+        <label for="s2" class="pagination__two"></label>
+        <label for="s3" class="pagination__three"></label>
+      </div>
+    </div>
+  </body>
+</html>
